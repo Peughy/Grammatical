@@ -2,6 +2,8 @@ import customtkinter as ctk
 import language_tool_python
 from threading import Thread
 
+tool = language_tool_python.LanguageTool('en')
+
 class CorrecteurApp:
     def __init__(self):
         ctk.set_appearance_mode("dark")
